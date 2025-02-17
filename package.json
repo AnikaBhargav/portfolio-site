@@ -2,7 +2,7 @@
   "name": "anika-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://github-anikabear.github.io/portfolio-site",
+  "homepage": "http://anikabear.github.io/portfolio-site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
