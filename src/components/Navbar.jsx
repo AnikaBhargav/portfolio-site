@@ -83,9 +83,9 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed8eae] shadow-md shadow-[#9e9b9b]'>
+          <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eba2ba] shadow-md shadow-[#9e9b9b]'>
             <a href="https://github.com/anikabear" className='flex justify-between items-center w-full text-white px-4'>
-              LinkedIn <FaGithub size={30} />
+              Github <FaGithub size={30} />
             </a>
           </li>
           {/* ... other social links ... */}

@@ -1,6 +1,6 @@
 import React from 'react'
-import code from '../assets/project1.png';
-import code2 from '../assets/project2.png';
+import code from '../assets/Care.png';
+import code2 from '../assets/Hbt.png';
 
 
 const Projects = () => {
