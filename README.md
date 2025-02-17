@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# portfolio-site
-my personal portfolio 
-=======
+
 # Project Description 
 This project is a front-end web page made with React, Node JS, and Tailwind CSS. It is a personal portfolio website to showcase my projects and general information about myself as a software engineer. 
 
