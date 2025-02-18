@@ -18,7 +18,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-15 flex shadow-md justify-between items-center p-3 px-4 bg-white text-black font-thin font-serif'>
+    <div className='fixed w-full h-15 flex shadow-md justify-between items-center p-3 px-4 bg-white text-black font-thin font-serif z-10'>
         <div>
             <h1 className='font-thin text-2xl italic font-serif'>AB</h1>
         </div>
@@ -69,16 +69,16 @@ const Navbar = () => {
         {/* ... other mobile menu items ... */}
       </ul>
 
-      {/* Social icons - hidden on smaller screens, shown on large screens */}
-      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+
+      <div className=' sm:flex fixed flex-col top-[25%] left-0'>
         <ul>
           {/* LinkedIn - sliding animation on hover */}
-          <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed8eae] shadow-md shadow-[#9e9b9b]'>
+          <li className='w-40 h-12 my-3 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed8eae] shadow-md shadow-[#9e9b9b]'>
             <a href="https://www.linkedin.com/in/anika-bhargav-179b7b2b7/" className='flex justify-between items-center w-full text-white px-4'>
               LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='w-40 h-14 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eba2ba] shadow-md shadow-[#9e9b9b]'>
+          <li className='w-40 h-12 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#eba2ba] shadow-md shadow-[#9e9b9b]'>
             <a href="https://github.com/AnikaBhargav" className='flex justify-between items-center w-full text-white px-4'>
               Github <FaGithub size={30} />
             </a>

@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start NODE_OPTIONS=--openssl-legacy-provider",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.8",
+    "daisyui": "^4.12.23",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.16",
     "react-scripts": "^5.0.1",
