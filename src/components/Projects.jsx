@@ -74,7 +74,7 @@ export default function Projects() {
                 if (visibleItem !== project.id) e.preventDefault();
               }}
               className={`${
-                visibleItem === project.id ? "cursor-pointer" : "cursor"
+                visibleItem === project.id ? "cursor-pointer duration-500" : "cursor opacity-70 duration-500"
               }`}
             >
               <div className="container p-2 hover:scale-105 duration-500">
