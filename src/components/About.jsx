@@ -9,7 +9,7 @@ const About = () => {
     <div 
       name="about"
       id="about"
-      className="w-full h-screen bg-beigeDark text-black p-20 flex flex-col gap-4 justify-evenly"
+      className="w-full h-full bg-beigeDark text-black p-20 flex flex-col gap-4 justify-evenly"
     >
 
       <div name="heading" className="flex flex-col gap-2">

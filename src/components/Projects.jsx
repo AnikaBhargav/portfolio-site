@@ -66,7 +66,7 @@ export default function Projects() {
             key={project.id}
             id={project.id}
             ref={(el) => (itemRefs.current[index] = el)}
-            className="carousel-item max-w-md md:max-w-4xl"
+            className="carousel-item max-w-xs md:max-w-4xl"
           >
             <a
               href={visibleItem === project.id ? project.link : undefined}
