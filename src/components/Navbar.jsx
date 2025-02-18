@@ -51,24 +51,19 @@ const Navbar = () => {
 
       {/* Mobile Menu - full screen overlay */}
       <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl text-zinc-600 hover:text-black hover:font-medium cursor-pointer'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             HOME
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl text-zinc-600 hover:text-black hover:font-medium cursor-pointer'>
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             PROJECTS
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl text-zinc-600 hover:text-black hover:font-medium cursor-pointer'>
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             ABOUT
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
-            CONTACT
           </Link>
         </li>
         {/* ... other mobile menu items ... */}

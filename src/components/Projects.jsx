@@ -1,6 +1,7 @@
 import React from 'react'
 import code from '../assets/Care.png';
 import code2 from '../assets/Hbt.png';
+import code3 from '../assets/portfolio.png';
 
 
 const Projects = () => {
@@ -10,7 +11,9 @@ const Projects = () => {
       <div name='project' className='w-full flex flex-col md:flex-row justify-around p-6'>
         <a href="https://anika-bhargav.webflow.io/work/project-1"><div className='container p-4 hover:scale-105 duration-500 '><img className="rounded-xl shadow-xl shadow-[#9e9b9b]" src={code} /></div></a>
       
-        <a href="https://github.com/anikabear/Habit-Tracker"><div className='container p-4 hover:scale-105 duration-500'><img className="rounded-xl shadow-xl shadow-[#9e9b9b]" src={code2} /></div></a>
+        <a href="https://github.com/AnikaBhargav/Habit-Tracker"><div className='container p-4 hover:scale-105 duration-500'><img className="rounded-xl shadow-xl shadow-[#9e9b9b]" src={code2} /></div></a>
+
+        <a href="https://github.com/AnikaBhargav/portfolio-site"><div className='container p-4 hover:scale-105 duration-500'><img className="rounded-xl shadow-xl shadow-[#9e9b9b]" src={code3} /></div></a>
       
 
       </div>
