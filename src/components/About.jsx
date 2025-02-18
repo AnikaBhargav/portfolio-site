@@ -1,4 +1,8 @@
 import React from 'react'
+import {
+  FaGithub,
+  FaLinkedin,
+} from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -27,6 +31,23 @@ const About = () => {
             <p className='font-light'>Udemy Online</p>
           </div>
         </div>
+      </div>
+
+      <div className='flex flex-row justify-center'>
+        
+
+          <li className='hover:scale-105 duration-500 rounded-md w-40 h-12 m-3 flex justify-between items-center bg-[#ed8eae] shadow-md shadow-[#9e9b9b]'>
+            <a href="https://www.linkedin.com/in/anika-bhargav-179b7b2b7/" className='flex justify-between items-center w-full text-white px-4'>
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='hover:scale-105 duration-500 rounded-md w-40 h-12 m-3 flex justify-between items-center bg-[#eba2ba] shadow-md shadow-[#9e9b9b]'>
+            <a href="https://github.com/AnikaBhargav" className='flex justify-between items-center w-full text-white px-4'>
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          
+        
       </div>
 
       

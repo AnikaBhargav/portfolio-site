@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
 
-// Import icons we'll use for our navbar
+
 import {
   FaBars,
   FaTimes,
-  FaGithub,
-  FaLinkedin,
 } from 'react-icons/fa';
 
-// Import Link for smooth scrolling between sections
+
 import { Link } from 'react-scroll';
 
 
@@ -70,9 +68,9 @@ const Navbar = () => {
       </ul>
 
 
-      <div className=' sm:flex fixed flex-col top-[25%] left-0'>
+      {/* <div className=' sm:flex fixed flex-col top-[25%] left-0'>
         <ul>
-          {/* LinkedIn - sliding animation on hover */}
+
           <li className='w-40 h-12 my-3 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ed8eae] shadow-md shadow-[#9e9b9b]'>
             <a href="https://www.linkedin.com/in/anika-bhargav-179b7b2b7/" className='flex justify-between items-center w-full text-white px-4'>
               LinkedIn <FaLinkedin size={30} />
@@ -83,9 +81,9 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          {/* ... other social links ... */}
+          
         </ul>
-      </div>
+      </div> */}
     </div> 
   )
 }
