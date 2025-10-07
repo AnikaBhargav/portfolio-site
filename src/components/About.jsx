@@ -26,6 +26,11 @@ const About = () => {
             <p className='font-light'>The University of Auckland</p>
           </div>
           <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
+            <p className='text-[#be6575] font-serif'>2025</p>
+            <h3 className='font-bold'>NZQA Level 5 AI-Powered UX Design Accelerator</h3>
+            <p className='font-light'>Mission Ready</p>
+          </div>
+          <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
             <p className='text-[#be6575] font-serif'>Nov 2022</p>
             <h3 className='font-bold'>The Complete Full Stack Web Development Course</h3>
             <p className='font-light'>Udemy Online</p>
