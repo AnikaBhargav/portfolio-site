@@ -21,15 +21,17 @@ const About = () => {
         <h2 className="text-left font-serif font-normal text-xl m-2">Education ── .✦</h2>
         <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-3 m-1'>
           <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
+            <p className='text-[#be6575] font-serif'>Aug 2025-Oct 2025</p>
+            <h3 className='font-bold'>NZQA Level 5 AI-Powered UX Design Accelerator</h3>
+            <p className='font-light'>Mission Ready</p>
+          </div>
+
+          <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
             <p className='text-[#be6575] font-serif'>2021-2024</p>
             <h3 className='font-bold'>Bachelor of Science - Computer Science</h3>
             <p className='font-light'>The University of Auckland</p>
           </div>
-          <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
-            <p className='text-[#be6575] font-serif'>2025</p>
-            <h3 className='font-bold'>NZQA Level 5 AI-Powered UX Design Accelerator</h3>
-            <p className='font-light'>Mission Ready</p>
-          </div>
+        
           <div className="container content-div bg-[#f3ecec] rounded-xl p-5">
             <p className='text-[#be6575] font-serif'>Nov 2022</p>
             <h3 className='font-bold'>The Complete Full Stack Web Development Course</h3>
